@@ -1,0 +1,18 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "denysaw",
+  "password": "",
+  "database": "nest",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "migrations": [
+    "dist/migrations/*.js"
+  ],
+  "cli": {
+    "entitiesDir": "src",
+    "migrationsDir": "src/migrations"
+  },
+  "autoLoadEntities": true,
+  "synchronize": true
+}
